@@ -24,3 +24,13 @@
     margin: 40px 0px 0px 0px;
 }
 
+.button-send{
+    background-color: #D60034;
+    color: #FFFFFF;
+
+    border-radius: 10%;
+    
+    padding: 13px 23px 13px 23px;
+}
+
+

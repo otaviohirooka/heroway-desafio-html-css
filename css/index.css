@@ -4,6 +4,7 @@
 @import 'section-portifolio.css';
 @import 'section-about.css';
 @import 'section-contactme.css';
+@import 'section-footer.css';
 @import 'footer.css';
 
 *{
@@ -14,4 +15,8 @@
 
 body, html{
     font: 16px 'Montserrat', sans-serif;
+}
+
+.fa-star{
+    font-size: 1.5625rem;
 }

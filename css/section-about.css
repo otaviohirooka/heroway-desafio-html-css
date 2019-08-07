@@ -28,6 +28,8 @@
 
 .paragraph-about .left-p, .paragraph-about .right-p{
     font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin: 10px;
 }
 
 .button-download{

@@ -35,7 +35,7 @@
 
 .options a:hover{
 	background-color: #D60034;
-	color:#37415A;
+	color: #37415A;
 	padding: 37px 0px 35px 0px;
 }
 
@@ -73,7 +73,7 @@ i{
 
 .line{
     border-top: 2px solid white;
-    margin: 5px 9px 13px 9px;
+    margin: 10px 9px 13px 9px;
     color:#D60034;
 }
 
