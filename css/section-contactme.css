@@ -1,5 +1,4 @@
 .section-contactme {
-    height: 600px;
 
     display: flex;
     align-items: center;
@@ -16,21 +15,44 @@
 
 .title-input {
     color: #828385;
-    font-size: 20px;
+    font-size: 1.0625rem;
     margin: 10px 0px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .all-input {
     margin: 40px 0px 0px 0px;
 }
 
+.all-input .input, .input-message {
+    height: 25px;
+
+    border: 0;
+    border-bottom: 1px solid #F5F4F6;
+    margin-bottom: 25px;
+}
+
+.input-message {
+    height: 120px;
+}
+
 .button-send {
     background-color: #D60034;
     color: #FFFFFF;
+    border: 2px solid #D60034;
 
     border-radius: 10%;
+    text-decoration:none;
     
     padding: 13px 23px 13px 23px;
+    margin-bottom: 85px;
+}
+
+.button-send:hover{
+    background-color: #FFFFFF;
+    color: #D60034;
+    border: 2px solid #D60034;
+    font-weight: bold;
 }
 
 

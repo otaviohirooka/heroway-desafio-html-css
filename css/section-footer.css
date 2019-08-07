@@ -26,9 +26,10 @@
 
 .around-web i {
     border: 1.5px solid #FFFFFF;
+    border-radius: 50%;
+
     padding: 10px;
     margin: 5px;
-    border-radius: 50%;
 }
 
 .section-footer div p {
