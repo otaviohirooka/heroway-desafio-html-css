@@ -7,16 +7,16 @@
 @import 'section-footer.css';
 @import 'footer.css';
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body, html{
+body, html {
     font: 16px 'Montserrat', sans-serif;
 }
 
-.fa-star{
+.fa-star {
     font-size: 1.5625rem;
 }

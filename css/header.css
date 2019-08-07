@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
 
     display: flex;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.menu{
+.menu {
     background-color: #37415A;
 
     height: 13%;
@@ -16,69 +16,70 @@
     align-items: center;
 }
 
-.title{
+.title {
     font-size: 1.25rem;
     padding: 30px;
 }
 
-.options a{
-    font-size: 0.75rem;
+.options a {
+    font-size: 0.85rem;
+    font-weight: bold;
 
     padding: 0px 20px 0px 20px;
     text-decoration:none;
 }
 
-.title, .title-perfil, .options a{
+.title, .title-perfil, .options a {
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.options a:hover{
+.options a:hover {
 	background-color: #D60034;
 	color: #37415A;
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.header-main{
+.header-main {
     height: 87%;
     width: 100%;
     
     background-color: #D60034;
 }
 
-.header-main img{
+.header-main img {
     max-width: 200px;
     margin-top: 60px;
 }
 
-.title-perfil{
+.title-perfil {
     font-size: 3.4375rem;
     margin: 30px 0px 13px 0;
 }
 
-.img-perfil{
+.img-perfil {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-i{
+i {
     color:#FFFFFF;
 }
 
-.line-star{
+.line-star {
     display: flex;
     flex-direction: row;
 }
 
-.line{
+.line {
     border-top: 2px solid white;
     margin: 10px 9px 13px 9px;
     color:#D60034;
 }
 
-.paragraph-perfil{
+.paragraph-perfil {
     color: white;
     font-size: 1.125rem;
     padding-bottom: 70px;

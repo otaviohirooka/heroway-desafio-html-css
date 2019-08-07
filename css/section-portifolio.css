@@ -1,4 +1,4 @@
-.section-portifolio{
+.section-portifolio {
     width: 100%;
 
     background-color: #FFFFFF;
@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.title-portifolio{
+.title-portifolio {
     color: #000000;
 
     text-transform: uppercase;
@@ -17,16 +17,16 @@
     margin: 60px 0px 17px 0px;
 }
 
-#star-portifolio{
+#star-portifolio {
     color: black;
 }
 
-.portifolio{
+.portifolio {
     border-top: 2px solid black;
     color: #FFFFFF;
 }
 
-.imagens-portifolio{
+.imagens-portifolio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,13 +34,13 @@
     padding-bottom: 60px;
 }
 
-.imagens-portifolio img{
+.imagens-portifolio img {
     max-width: 250px;
     
     margin: 10px;
     border-radius: 3%;
 }
 
-.my-website{
+.my-website {
     color:#00B87D;
 }
