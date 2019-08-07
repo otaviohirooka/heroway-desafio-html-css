@@ -57,3 +57,17 @@
 .button-download i:hover {
     color: #D60034;
 }
+
+@media (max-width: 599px) {
+    .paragraph-about {
+        flex-direction: column;
+    
+        width: 100%;
+    }
+
+    .paragraph-about .left-p, .paragraph-about .right-p {
+        font-size: 18px;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+}

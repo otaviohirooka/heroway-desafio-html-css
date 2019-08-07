@@ -37,8 +37,8 @@
 .options a:hover {
 	background-color: #D60034;
 	color: #37415A;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header-main {
@@ -83,4 +83,52 @@ i {
     color: white;
     font-size: 1.125rem;
     padding-bottom: 70px;
+}
+
+@media (max-width: 599px) {
+    .header {
+        height: 700px;
+    }
+
+    .menu {
+        height: 20%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-main {
+        height: 80%;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title {
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .options a {
+        border: 1px solid #FFFFFF;
+        border-radius: 10%;
+
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .img-perfil img{
+        margin: 10px 0px 0px 0px;
+    }
+
+    .title-perfil {
+        text-align: center;
+        margin: 15px 0px 13px 0;
+    }
+
+    .paragraph-perfil {
+        text-align: center;
+    }
 }

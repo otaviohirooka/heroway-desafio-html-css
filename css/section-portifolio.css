@@ -44,3 +44,13 @@
 .my-website {
     color:#00B87D;
 }
+
+@media (max-width: 599px) {
+    .imagens-portifolio img {
+        max-width: 150px;
+    }
+
+    .imagens-portifolio {
+        flex-direction: row;
+    }
+}
