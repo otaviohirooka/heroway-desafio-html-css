@@ -26,6 +26,7 @@
 
 .all-input .input, .input-message {
     height: 25px;
+    width: 100%;
 
     border: 0;
     border-bottom: 1px solid #F5F4F6;
@@ -53,6 +54,17 @@
     color: #D60034;
     border: 2px solid #D60034;
     font-weight: bold;
+}
+
+@media (max-width: 599px) {
+    .all-input .input, .input-message {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .title-input {
+        text-align: center;
+    }
 }
 
 

@@ -37,3 +37,27 @@
     text-align: center;
     line-height: 1.25rem;
 }
+
+@media (max-width: 599px) {
+    .section-footer {
+        flex-direction: column;
+    }
+    .section-footer div h3 {
+        padding: 10px 0px 5px 0px;
+    }
+    .section-footer div {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .section-footer div p {
+        line-height: 0rem;
+    }
+
+    .around-web div {
+       margin-top: 0px; 
+    }
+
+    .about-freelancer {
+        margin: 30px 0px 50px 0px;
+    }
+}
