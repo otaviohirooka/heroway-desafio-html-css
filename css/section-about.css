@@ -71,3 +71,16 @@
         text-align: justify;
     }
 }
+
+@media (max-width: 899px) {
+    .paragraph-about {
+        flex-direction: row;
+    
+        width: 60%;
+    }
+
+    .paragraph-about .left-p, .paragraph-about .right-p {
+        font-size: 1.075rem;
+        line-height: 1.45rem;
+    }
+}
